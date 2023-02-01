@@ -13,6 +13,8 @@
 		2E664D53298AFFAC00D01626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E664D51298AFFAC00D01626 /* Main.storyboard */; };
 		2E664D55298AFFAD00D01626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E664D54298AFFAD00D01626 /* Assets.xcassets */; };
 		2E664D58298AFFAD00D01626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E664D56298AFFAD00D01626 /* LaunchScreen.storyboard */; };
+		2E664D60298B097B00D01626 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2E664D5F298B097B00D01626 /* Resnet50.mlmodel */; };
+		2E664D62298B09CB00D01626 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2E664D61298B09CB00D01626 /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2E664D54298AFFAD00D01626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E664D57298AFFAD00D01626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E664D59298AFFAD00D01626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E664D5F298B097B00D01626 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		2E664D61298B09CB00D01626 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				2E664D4B298AFFAC00D01626 /* AppDelegate.swift */,
 				2E664D4D298AFFAC00D01626 /* SceneDelegate.swift */,
+				2E664D61298B09CB00D01626 /* SqueezeNet.mlmodel */,
+				2E664D5F298B097B00D01626 /* Resnet50.mlmodel */,
 				2E664D4F298AFFAC00D01626 /* ViewController.swift */,
 				2E664D51298AFFAC00D01626 /* Main.storyboard */,
 				2E664D54298AFFAD00D01626 /* Assets.xcassets */,
@@ -140,6 +146,8 @@
 			files = (
 				2E664D50298AFFAC00D01626 /* ViewController.swift in Sources */,
 				2E664D4C298AFFAC00D01626 /* AppDelegate.swift in Sources */,
+				2E664D62298B09CB00D01626 /* SqueezeNet.mlmodel in Sources */,
+				2E664D60298B097B00D01626 /* Resnet50.mlmodel in Sources */,
 				2E664D4E298AFFAC00D01626 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +298,7 @@
 				DEVELOPMENT_TEAM = K2GZT8VA4V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ObjectDetector/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Access";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +327,7 @@
 				DEVELOPMENT_TEAM = K2GZT8VA4V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ObjectDetector/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Access";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
