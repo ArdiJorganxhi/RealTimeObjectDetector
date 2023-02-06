@@ -7,6 +7,6 @@ Before running the project, make sure you download the neccesary models:
 https://developer.apple.com/machine-learning/models/
 
 
-For camera, AVKit is used in this project.
+After running the project, you won't be able to see results through your iOS Simulator due to unavailability of camera access, you should deploy project to your iPhone and test it.
 
 
